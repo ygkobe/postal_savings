@@ -2,6 +2,7 @@ import datetime
 from rest_framework import serializers
 from .models import Task
 
+
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
@@ -16,7 +17,7 @@ class TaskSerializer(serializers.ModelSerializer):
         instance.description = validated_data.get('description', instance.description)
         instance.completed = validated_data.get('completed', instance.completed)
         instance.task_id = validated_data.get('task_id', instance.task_id)  # 更新 task_id
-        instance.status = validated_data.get('status', instance.status)    # 更新 status
+        instance.status = validated_data.get('status', instance.status)  # 更新 status
         instance.save()
         return instance
 
