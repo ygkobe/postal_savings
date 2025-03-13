@@ -1,0 +1,120 @@
+INFO 2025-03-13 15:53:55,786 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 15:54:09,741 views Creating task with data: OrderedDict([('title', 'wqeqasdasd'), ('description', 'qwwq'), ('completed', True)])
+INFO 2025-03-13 15:54:10,028 basehttp "POST /api/tasks/ HTTP/1.1" 202 14628
+INFO 2025-03-13 15:55:54,792 autoreload D:\邮储\PostalSavings\tasks\models.py changed, reloading.
+INFO 2025-03-13 15:55:56,647 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 15:56:01,906 views Creating task with data: OrderedDict([('title', 'wqeqasdasd'), ('description', 'qwwq'), ('completed', True)])
+INFO 2025-03-13 15:56:02,135 basehttp "POST /api/tasks/ HTTP/1.1" 202 14071
+INFO 2025-03-13 15:56:09,855 views Creating task with data: OrderedDict([('title', '请问委屈恶气'), ('description', '驱蚊器恶气'), ('completed', True)])
+INFO 2025-03-13 15:56:09,876 basehttp "POST /api/tasks/ HTTP/1.1" 202 14071
+INFO 2025-03-13 15:56:39,329 basehttp "GET /api/tasks/1/ HTTP/1.1" 200 15827
+INFO 2025-03-13 15:56:42,258 views Updating task 1 with data: OrderedDict([('title', '照花心思'), ('description', '去问我去我去驱蚊器21'), ('completed', True)])
+INFO 2025-03-13 15:56:42,277 basehttp "PUT /api/tasks/1/ HTTP/1.1" 202 15281
+INFO 2025-03-13 15:57:48,691 autoreload D:\邮储\PostalSavings\tasks\views.py changed, reloading.
+INFO 2025-03-13 15:57:51,490 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 15:57:55,172 basehttp "GET /api/tasks/1/ HTTP/1.1" 200 15833
+INFO 2025-03-13 15:58:26,346 autoreload D:\邮储\PostalSavings\tasks\views.py changed, reloading.
+INFO 2025-03-13 15:58:28,791 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 15:58:31,194 basehttp "GET /api/tasks/1/ HTTP/1.1" 200 15833
+INFO 2025-03-13 16:01:57,283 autoreload D:\邮储\PostalSavings\PostalSavings\settings.py changed, reloading.
+INFO 2025-03-13 16:03:19,977 views Creating task with data: OrderedDict([('title', '趣味无穷'), ('description', '委屈恶气恶气'), ('completed', True)])
+INFO 2025-03-13 16:13:56,615 views Creating task with data: OrderedDict([('title', '钱文琦1'), ('description', '12122121'), ('completed', True)])
+INFO 2025-03-13 16:14:10,557 views Creating task with data: OrderedDict([('title', '212121'), ('description', '1221'), ('completed', True)])
+INFO 2025-03-13 16:25:54,785 views Creating task with data: OrderedDict([('title', '212121'), ('description', '1221'), ('completed', True)])
+INFO 2025-03-13 16:25:56,192 views Fetching all tasks
+INFO 2025-03-13 16:25:56,229 views Successfully retrieved 1212 14 tasks
+INFO 2025-03-13 16:26:05,866 views Fetching all tasks
+INFO 2025-03-13 16:26:05,882 views Successfully retrieved 1212 14 tasks
+INFO 2025-03-13 17:00:26,799 views Fetching all tasks
+INFO 2025-03-13 17:01:23,195 views Creating task with data: OrderedDict([('title', '委屈恶气恶气213131'), ('description', '21312'), ('task_id', ''), ('status', ''), ('completed', True)])
+INFO 2025-03-13 17:05:35,182 views Creating task with data: OrderedDict([('title', '委屈恶气恶气213131'), ('description', '21312'), ('task_id', ''), ('status', ''), ('completed', True)])
+INFO 2025-03-13 17:05:42,361 views Creating task with data: OrderedDict([('title', '我去问驱蚊器请问'), ('description', '12212121'), ('task_id', ''), ('status', ''), ('completed', True)])
+INFO 2025-03-13 17:05:44,060 views Fetching all tasks
+INFO 2025-03-13 17:05:44,083 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:51,971 views Fetching all tasks
+INFO 2025-03-13 17:05:51,986 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:53,147 views Fetching all tasks
+INFO 2025-03-13 17:05:53,163 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:54,084 views Fetching all tasks
+INFO 2025-03-13 17:05:54,098 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:55,797 views Fetching all tasks
+INFO 2025-03-13 17:05:55,814 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:56,508 views Fetching all tasks
+INFO 2025-03-13 17:05:56,522 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:57,250 views Fetching all tasks
+INFO 2025-03-13 17:05:57,266 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:57,942 views Fetching all tasks
+INFO 2025-03-13 17:05:57,972 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:58,883 views Fetching all tasks
+INFO 2025-03-13 17:05:58,898 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:05:59,569 views Fetching all tasks
+INFO 2025-03-13 17:05:59,583 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:06:00,379 views Fetching all tasks
+INFO 2025-03-13 17:06:00,393 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:06:02,195 views Fetching all tasks
+INFO 2025-03-13 17:06:02,211 views Successfully retrieved 16 tasks
+INFO 2025-03-13 17:09:52,335 views Creating task with data: OrderedDict([('title', '撒风格化法国发'), ('description', '撒地方'), ('task_id', ''), ('status', ''), ('completed', True)])
+INFO 2025-03-13 17:09:57,923 views Fetching all tasks
+INFO 2025-03-13 17:09:57,945 views Successfully retrieved 17 tasks
+INFO 2025-03-13 17:23:52,553 views Fetching all tasks
+INFO 2025-03-13 17:23:52,576 views Successfully retrieved 17 tasks
+INFO 2025-03-13 17:24:00,200 views Creating task with data: OrderedDict([('title', '委屈委屈饿我去饿我去恶趣味'), ('description', '21121'), ('task_id', ''), ('status', ''), ('completed', True)])
+INFO 2025-03-13 17:24:02,543 views Fetching all tasks
+INFO 2025-03-13 17:24:02,558 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:05,012 views Fetching all tasks
+INFO 2025-03-13 17:24:05,029 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:06,033 views Fetching all tasks
+INFO 2025-03-13 17:24:06,049 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:06,937 views Fetching all tasks
+INFO 2025-03-13 17:24:06,952 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:07,816 views Fetching all tasks
+INFO 2025-03-13 17:24:07,833 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:08,657 views Fetching all tasks
+INFO 2025-03-13 17:24:08,671 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:09,577 views Fetching all tasks
+INFO 2025-03-13 17:24:09,591 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:10,352 views Fetching all tasks
+INFO 2025-03-13 17:24:10,368 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:11,265 views Fetching all tasks
+INFO 2025-03-13 17:24:11,280 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:12,184 views Fetching all tasks
+INFO 2025-03-13 17:24:12,199 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:13,121 views Fetching all tasks
+INFO 2025-03-13 17:24:13,134 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:14,049 views Fetching all tasks
+INFO 2025-03-13 17:24:14,063 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:14,881 views Fetching all tasks
+INFO 2025-03-13 17:24:14,896 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:15,873 views Fetching all tasks
+INFO 2025-03-13 17:24:15,887 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:16,841 views Fetching all tasks
+INFO 2025-03-13 17:24:16,855 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:17,897 views Fetching all tasks
+INFO 2025-03-13 17:24:17,911 views Successfully retrieved 18 tasks
+INFO 2025-03-13 17:24:50,038 views Fetching all tasks
+INFO 2025-03-13 17:24:50,049 views Successfully retrieved 4 tasks
+INFO 2025-03-13 17:26:05,070 views Fetching all tasks
+INFO 2025-03-13 17:26:05,081 views Successfully retrieved 4 tasks
+INFO 2025-03-13 17:27:18,507 views Checking status for task_id: 1f1c75ce-b65d-4d9e-a44d-53e8aae38201
+INFO 2025-03-13 17:30:41,393 views Fetching all tasks
+INFO 2025-03-13 17:30:41,412 views Successfully retrieved 4 tasks
+INFO 2025-03-13 17:30:46,328 views Creating task with data: OrderedDict([('title', 'wqeqweqweqw'), ('description', 'qweq'), ('task_id', ''), ('status', ''), ('completed', True)])
+INFO 2025-03-13 17:30:53,536 views Fetching all tasks
+INFO 2025-03-13 17:30:53,550 views Successfully retrieved 5 tasks
+INFO 2025-03-13 17:30:56,872 views Fetching all tasks
+INFO 2025-03-13 17:30:56,885 views Successfully retrieved 5 tasks
+INFO 2025-03-13 17:30:57,809 views Fetching all tasks
+INFO 2025-03-13 17:30:57,821 views Successfully retrieved 5 tasks
+INFO 2025-03-13 17:30:58,583 views Fetching all tasks
+INFO 2025-03-13 17:30:58,596 views Successfully retrieved 5 tasks
+INFO 2025-03-13 17:30:59,640 views Fetching all tasks
+INFO 2025-03-13 17:30:59,652 views Successfully retrieved 5 tasks
+INFO 2025-03-13 17:31:07,877 views Creating task with data: OrderedDict([('title', 'wqewqeqe22222222222222222222'), ('description', 'weqew'), ('task_id', ''), ('status', ''), ('completed', True)])
+INFO 2025-03-13 17:31:09,204 views Fetching all tasks
+INFO 2025-03-13 17:31:09,217 views Successfully retrieved 6 tasks
+INFO 2025-03-13 17:31:11,385 views Fetching all tasks
+INFO 2025-03-13 17:31:11,398 views Successfully retrieved 6 tasks
+INFO 2025-03-13 17:31:12,325 views Fetching all tasks
+INFO 2025-03-13 17:31:12,342 views Successfully retrieved 6 tasks
+INFO 2025-03-13 17:31:13,176 views Fetching all tasks
+INFO 2025-03-13 17:31:13,188 views Successfully retrieved 6 tasks

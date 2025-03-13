@@ -1,0 +1,6 @@
+ERROR 2025-03-13 16:03:19,978 views Creating task with data: OrderedDict([('title', '趣味无穷'), ('description', '委屈恶气恶气'), ('completed', True)])
+ERROR 2025-03-13 16:13:56,617 views Creating task with data: OrderedDict([('title', '钱文琦1'), ('description', '12122121'), ('completed', True)])
+ERROR 2025-03-13 16:14:10,559 views Creating task with data: OrderedDict([('title', '212121'), ('description', '1221'), ('completed', True)])
+ERROR 2025-03-13 16:25:54,786 views Creating task with data: OrderedDict([('title', '212121'), ('description', '1221'), ('completed', True)])
+ERROR 2025-03-13 17:00:26,806 views Failed to fetch tasks: (1054, "Unknown column 'tasks.task_id' in 'field list'")
+ERROR 2025-03-13 17:27:18,511 views Task 1f1c75ce-b65d-4d9e-a44d-53e8aae38201 failed: Task() got unexpected keyword arguments: 'task_id', 'status'
