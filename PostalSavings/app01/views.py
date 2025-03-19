@@ -28,3 +28,21 @@ class AllBookListView(APIView):
         queryset = Book.objects.all()
         serializer = BookSerializer(queryset, many=True)
         return Response(serializer.data)
+
+
+# views.py
+from django.http import JsonResponse
+from .tasks import send_email_task, process_data_task
+
+
+def trigger_tasks(request):
+    # 触发邮件任务
+    email_result = send_email_task.delay('user@example.com')
+    # 触发数据处理任务
+    data_result = process_data_task.delay('some_data')
+
+    return JsonResponse({
+        'email_task_id': email_result.id,
+        'data_task_id': data_result.id,
+        'message': 'Tasks have been triggered!'
+    })
