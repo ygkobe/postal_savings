@@ -20,3 +20,11 @@ class BookListView(APIView):
         # 如果没有分页数据，序列化原始查询集
         serializer = BookSerializer(instance=queryset, many=True)
         return Response(serializer.data)
+
+
+class AllBookListView(APIView):
+    def get(self, request):
+        # 获取所有书籍，不进行分页
+        queryset = Book.objects.all()
+        serializer = BookSerializer(queryset, many=True)
+        return Response(serializer.data)
