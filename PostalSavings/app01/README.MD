@@ -1,3 +1,3 @@
 
 # 访问方式
-http://127.0.0.1:8000/api/books/?page=1
+http://127.0.0.1:8000/page/books/
