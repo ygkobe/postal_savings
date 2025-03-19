@@ -6,3 +6,9 @@
 celery -A PostalSavings worker --loglevel=info -P gevent
 
 ```
+
+# pycharm 设置
+```shell
+
+将PostalSavings设置为 源代码根目录
+```
