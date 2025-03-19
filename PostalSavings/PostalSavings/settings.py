@@ -39,13 +39,15 @@ INSTALLED_APPS = [
     'tasks.apps.TasksConfig',
     'rest_framework',
     'jobs',
-    # 'tasks'
+    'app01'
 ]
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
-    ]
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
 }
 
 MIDDLEWARE = [
@@ -135,7 +137,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 # Celery 配置
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
@@ -158,7 +159,6 @@ CACHES = {
         }
     }
 }
-
 
 # 日志目录
 LOG_DIR = os.path.join(BASE_DIR, 'logs')
