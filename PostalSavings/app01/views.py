@@ -3,6 +3,9 @@ from rest_framework.response import Response
 from rest_framework.pagination import PageNumberPagination
 from .models import Book
 from .serializers import BookSerializer
+# views.py
+from django.http import JsonResponse
+from .tasks import send_email_task, process_data_task
 
 
 class BookListView(APIView):
@@ -28,11 +31,6 @@ class AllBookListView(APIView):
         queryset = Book.objects.all()
         serializer = BookSerializer(queryset, many=True)
         return Response(serializer.data)
-
-
-# views.py
-from django.http import JsonResponse
-from .tasks import send_email_task, process_data_task
 
 
 def trigger_tasks(request):

@@ -19,26 +19,26 @@ celery -A PostalSavings worker --loglevel=info -P gevent
 邮件队列 Worker：
 
 ```shell
-celery -A PostalSavings worker -Q email_queue -l info
+celery -A PostalSavings worker -Q email_queue -l info -P gevent
 ```
 
 数据队列 Worker：
 
 ```bash
-celery -A PostalSavings worker -Q data_queue -l info
+celery -A PostalSavings worker -Q data_queue -l info -P gevent
 ```
 
 或者用一个 Worker 处理所有队列：
 
 ```shell
-celery -A PostalSavings worker -l info
+celery -A PostalSavings worker -l info -P gevent
 ```
 
 使用celery multi
 
 ```text
 
-sudo celery multi start 2 -A PostalSavings -Q:1 email_queue -Q:2 data_queue
+sudo celery multi start 2 -A PostalSavings -Q:1 email_queue -Q:2 data_queue -P gevent
 
 celery multi stop 2 -A PostalSavings
 
