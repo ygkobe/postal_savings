@@ -143,9 +143,6 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_ACCEPT_CONTENT = ['json']
 
 # Celery 配置
-# myproject/settings.py
-
-# Celery 配置
 CELERY_BROKER_URL = 'redis://localhost:6379/0'
 CELERY_RESULT_BACKEND = 'redis://localhost:6379/1'  # 使用不同的数据库编号以区分
 

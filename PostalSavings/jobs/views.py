@@ -3,16 +3,22 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Job
 from .serializers import JobSerializer
+from common.logs import logger
+import os
 
 
 class JobListCreateAPIView(APIView):
     def get(self, request):
+        # 获取当前文件名
+
         jobs = Job.objects.all()
         serializer = JobSerializer(jobs, many=True)
         return Response(serializer.data)
 
     def post(self, request):
         job = JobSerializer(data=request.data)
+        current_function = self.get.__name__
+        print(current_function)
         if job.is_valid():
             job.save()
             return Response(job.data, status=status.HTTP_201_CREATED)
