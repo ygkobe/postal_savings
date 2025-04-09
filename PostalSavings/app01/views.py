@@ -3,8 +3,11 @@ from rest_framework.response import Response
 from rest_framework.pagination import PageNumberPagination
 from .models import Book
 from .serializers import BookSerializer
-from .tasks import send_email_task, process_data_task
+
+# views.py
 from django.http import JsonResponse
+from .tasks import send_email_task, process_data_task
+
 
 class BookListView(APIView):
     def get(self, request):
@@ -40,5 +43,4 @@ def trigger_tasks(request):
     return JsonResponse({
         'email_task_id': email_result.id,
         'data_task_id': data_result.id,
-        'message': 'Tasks have been triggered!'
-    })
+        'message': 'Tasks have been triggered!'})

@@ -90,6 +90,7 @@ DATABASES = {
         'NAME': 'postal_savings',  # 数据库名
         'USER': 'root',  # 数据库用户名
         'PASSWORD': '123456',  # 数据库用户密码
+        # 'PASSWORD': 'Huawei@123',  # 数据库用户密码
         'HOST': 'localhost',  # 数据库主机地址，本地数据库可使用 'localhost' 或 '127.0.0.1'
         'PORT': '3306',  # 数据库端口号，MySQL 默认端口是 3306
         'OPTIONS': {
